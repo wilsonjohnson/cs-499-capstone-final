@@ -1,3 +1,6 @@
+## Project: Electron Sidescroller
+[link to repository](https://github.com/wilsonjohnson/cs-499-final-game)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/wilsonjohnson/cs-499-capstone-final/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
