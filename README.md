@@ -1,40 +1,72 @@
 ## Project: Electron Sidescroller
 [link to repository](https://github.com/wilsonjohnson/cs-499-final-game)
 
-## Welcome to GitHub Pages
+## Project: [MongoDB Java Integration ( JMongo )](https://github.com/wilsonjohnson/final-project-adv-programming-concepts)
 
-You can use the [editor on GitHub](https://github.com/wilsonjohnson/cs-499-capstone-final/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The purpose of this project was initially as a final project for the advanced programming concepts course.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+However, as I worked on it, I started realizing that I very much disliked the syntax for calling MongoDB queries from Java so I decided to work on an interface which improved this.
 
-### Markdown
+This is where the IDAO.java class comes in to play, When creating a MongoDB DAO, extending this object gives alot of flexibility when creating queries.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```java
+public class StocksDAO implements IDAO {
+  DBCollection collection;
+  MongoClient client;
+  public StocksDAO( MongoClient client ) throws NullPointerException {
+        Objects.requireNonNull(client, "Client provided cannot be null");
+    log = LoggerFactory.getLogger( this.getClass() );
+    this.client = client;
+    setupCollection();
+  }
 
-```markdown
-Syntax highlighted code block
+  /**
+   * Init method to setup this DAO's collection
+   */
+  private void setupCollection(){
+    collection = client.getDB( "market" ).getCollection( "stocks" );
+  }
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+  @Override
+  public DBCollection getCollection() {
+    return collection;
+  }
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+It attempts to utilize a fluent pattern when creating queries, and in most cases is much less verbose than the original Java.
 
-### Jekyll Themes
+```java
+/**
+ * Counts the averages within a specified range
+ */
+public int countAveragesFromTo( Double from, Double to ){
+  return count( 
+    queryWhere( "50-Day Simple Moving Average" )
+      .greaterThan( from )
+      .lessThan( to ).get() );
+}
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wilsonjohnson/cs-499-capstone-final/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+While the normal find, create, delete, and update functions are still not to my liking, I was able to drastically improve the appearance of the aggregate pipeline.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```java
+/**
+ * Lists the top 5 stocks based on arbitrarily selected criteria for a Company
+ * performs the following mongodb aggregate query:
+ * <pre>
+ * aggregate([
+ * 	{ $match: { "Company": company } },
+ * 	{ $sort: { "Performance (Year)": -1 } },
+ * 	{ $limit: 5 }
+ * ])
+ * </pre>
+ */
+public Stream< DBObject > readTopFiveByCompany( String company ) {
+  return aggregate( pipeline(
+              $match(object("Company", company)),
+              $sort(pair("Performance (Year)", DESCENDING)),
+              $limit(5)
+    ) );
+}
+```
