@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="./styles/styles.css">
+
 ## Project: [Electron Sidescroller](https://github.com/wilsonjohnson/cs-499-final-game)
 
 I began the creation of this project with the goal of creating a general game engine. Along the way I discovered that, due to time constraints this would not be a plausible endeavor in the amount of time I had for this class. However, I was able to create a basic interactive playground.
@@ -76,8 +77,7 @@ public Stream< DBObject > readTopFiveByCompany( String company ) {
 Here is a code review that I did outlining the changes I wanted to make to this project:
 
 <div  id="code-review" class="youtube" data-embed="cRgcOs_s6z4" onclick="document.getElementById('video-link').click();"> 
+	<img src="http://img.youtube.com/vi/cRgcOs_s6z4/sddefault.jpg" alt="Code Review"/>
 	<div class="play-button"></div> 
-	<img src="http://img.youtube.com/vi/cRgcOs_s6z4/sddefault.jpg" alt="Code Review" width="100%" height="100%" />
-	<a class="youtube" href="http://www.youtube.com/watch?feature=player_embedded&v=cRgcOs_s6z4" target="_blank" width="100%" height="100%" id="video-link">
-	</a>
+	<a class="youtube" href="http://www.youtube.com/watch?feature=player_embedded&v=cRgcOs_s6z4" target="_blank" id="video-link"></a>
 </div>
