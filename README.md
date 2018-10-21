@@ -1,5 +1,6 @@
-## Project: Electron Sidescroller
-[link to repository](https://github.com/wilsonjohnson/cs-499-final-game)
+## Project: [Electron Sidescroller](https://github.com/wilsonjohnson/cs-499-final-game)
+
+I began the creation of this project with the goal of creating a general game engine. Along the way I discovered that, due to time constraints this would not be a plausible endeavor in the amount of time I had for this class. However, I was able to create a basic interactive playground.
 
 ## Project: [MongoDB Java Integration ( JMongo )](https://github.com/wilsonjohnson/final-project-adv-programming-concepts)
 
