@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="./styles/styles.css">
-
 [Design Diagram]: ./img/diagram.jpg
 
 # Project: [Electron Sidescroller](https://github.com/wilsonjohnson/cs-499-final-game)
