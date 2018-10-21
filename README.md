@@ -78,15 +78,15 @@ public createLine( start: Coordinate | Vec2 | Point, end: Coordinate | Vec2 | Po
 This is not the only ease of use integration created however, there are many more in the [PixiPlankCreator class](https://github.com/wilsonjohnson/cs-499-final-game/blob/master/src/physics.ts#L356)
 
 ### Objectives
-- [x] Physics Engine Integration
-- [x] Renderer Implementation
-- [x] Input API
-- [x] Application Runs
-- [ ] Entity manager
-- [ ] Scoring system
-- [ ] Level Manager
-- [ ] Life and Health Manager
-- [ ] Hitbox triggers
+- [x]  Physics Engine Integration
+- [x]  Renderer Implementation
+- [x]  Input API
+- [x]  Application Runs
+- [ ]  Entity manager
+- [ ]  Scoring system
+- [ ]  Level Manager
+- [ ]  Life and Health Manager
+- [ ]  Hitbox triggers
 
 
 ### Tools Used:
@@ -94,6 +94,9 @@ This is not the only ease of use integration created however, there are many mor
 - [plank-js](http://piqnt.com/planck.js/)
 - [Electron js](https://electronjs.org/)
 
+
+### Code Review
+This portion does not contain a code review as this was created from the ground up, There was no code to review, however, upon full completion of all objectives, a code review shall be added.
 
 # Project: [MongoDB Java Integration ( JMongo )](https://github.com/wilsonjohnson/final-project-adv-programming-concepts)
 
