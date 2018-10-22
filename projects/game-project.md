@@ -1,4 +1,8 @@
-##### [Self Reflection](../)
+---
+permalink: /game-project.html
+---
+
+##### [Self Reflection](/)
 
 [Design Diagram]: ./img/diagram.jpg
 
