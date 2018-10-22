@@ -23,3 +23,26 @@ The enhancement for databases was a simpler task, as I desired to improve upon t
 # Projects
 - ## [Electron Sidescroller](./game-project.html)
 - ## [MongoDB Java Integration ( JMongo )](./database-project.html)
+
+<script>
+<h1><a id="Projects_0"></a>Projects</h1>
+<ul>
+<li>
+<h2><a id="Electron_Sidescrollergameprojecthtml_1"></a><a href="./game-project.html">Electron Sidescroller</a></h2>
+</li>
+<li>
+<h2><a id="MongoDB_Java_Integration__JMongo_databaseprojecthtml_2"></a><a href="./database-project.html">MongoDB Java Integration ( JMongo )</a></h2>
+</li>
+</ul>
+</script>
+<noscript>
+<h1><a id="Projects_0"></a>Projects</h1>
+<ul>
+<li>
+<h2><a id="Electron_Sidescrollergameprojecthtml_1"></a><a href="./game-project.html">Electron Sidescroller</a></h2>
+</li>
+<li>
+<h2><a id="MongoDB_Java_Integration__JMongo_databaseprojecthtml_2"></a><a href="./database-project.html">MongoDB Java Integration ( JMongo )</a></h2>
+</li>
+</ul>
+</noscript>
