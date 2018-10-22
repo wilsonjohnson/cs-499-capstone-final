@@ -70,10 +70,15 @@ public Stream< DBObject > readTopFiveByCompany( String company ) {
 
 ### Tools Used:
 [Java 8 (OpenJDK)](https://openjdk.java.net/projects/jdk8/)
+
 [Maven](https://maven.apache.org/)
+
 [Spring Framework](https://spring.io/)
+
 [Faster XML: Jackson](https://github.com/FasterXML/jackson)
+
 [MongoDB: Java Driver](https://mongodb.github.io/mongo-java-driver/)
+
 ###### For more details on specific dependencies, refer to the project's [pom.xml](https://github.com/wilsonjohnson/final-project-adv-programming-concepts/blob/master/pom.xml#L19)
 
 Here is a code review that I did outlining the changes I wanted to make to this project:
