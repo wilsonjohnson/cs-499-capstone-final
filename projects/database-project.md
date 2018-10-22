@@ -86,7 +86,7 @@ Tools Used:
 Code Review ( pre-enhancement ):
 ------
 
-<div  id="code-review" class="youtube" data-embed="cRgcOs_s6z4" onclick="document.getElementById('video-link').click();"> 
+<div id="code-review" class="youtube" data-embed="cRgcOs_s6z4" onclick="document.getElementById('video-link').click();"> 
 	<img src="http://img.youtube.com/vi/cRgcOs_s6z4/sddefault.jpg" alt="Code Review"/>
 	<div class="play-button"></div> 
 	<a class="youtube" href="http://www.youtube.com/watch?feature=player_embedded&v=cRgcOs_s6z4" target="_blank" id="video-link"></a>
