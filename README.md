@@ -20,11 +20,7 @@ To satisfy the Algorithms and Data structures portion, a similar mindset was tak
 
 The enhancement for databases was a simpler task, as I desired to improve upon the DAO API that I had created to have cleaner code for communicating with a MongoDB database. The purpose of this enhancement was to showcase my knowledge of MongoDB queries, and to create a simpler method for calling these aggregate queries in Java. This portion could also attribute to the Software Design and Engineering enhancements, as they greatly consider the method in which this would be utilized as an API. 
 
-# Projects
-- ## [Electron Sidescroller](./game-project.html)
-- ## [MongoDB Java Integration ( JMongo )](./database-project.html)
-
-<script>
+<div id="projects-listing" style="diplay:none;">
 <h1><a id="Projects_0"></a>Projects</h1>
 <ul>
 <li>
@@ -34,6 +30,11 @@ The enhancement for databases was a simpler task, as I desired to improve upon t
 <h2><a id="MongoDB_Java_Integration__JMongo_databaseprojecthtml_2"></a><a href="./database-project.html">MongoDB Java Integration ( JMongo )</a></h2>
 </li>
 </ul>
+</div>
+<script>
+  setTimeout(function(){
+    document.getElementById('projects-listing').style.display='block';
+  });
 </script>
 <noscript>
 <h1><a id="Projects_0"></a>Projects</h1>
