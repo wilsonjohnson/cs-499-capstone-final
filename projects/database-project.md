@@ -2,7 +2,7 @@
 permalink: /database-project.html
 ---
 
-##### [Self Reflection](/)
+##### [Self Reflection](index.html)
 
 # Project: [MongoDB Java Integration ( JMongo )](https://github.com/wilsonjohnson/final-project-adv-programming-concepts)
 

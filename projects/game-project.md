@@ -2,7 +2,7 @@
 permalink: /game-project.html
 ---
 
-##### [Self Reflection](/)
+##### [Self Reflection](index.html)
 
 [Design Diagram]: /assets/img/diagram.jpg
 
