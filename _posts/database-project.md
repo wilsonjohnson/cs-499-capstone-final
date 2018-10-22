@@ -68,7 +68,8 @@ public Stream< DBObject > readTopFiveByCompany( String company ) {
 }
 ```
 
-=== Tools Used:
+Tools Used:
+======
 - [Java 8 (OpenJDK)](https://openjdk.java.net/projects/jdk8/)
 - [Maven](https://maven.apache.org/)
 - [Spring Framework](https://spring.io/)
