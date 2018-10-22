@@ -31,11 +31,13 @@ The enhancement for databases was a simpler task, as I desired to improve upon t
 </li>
 </ul>
 </div>
+<div>
 <script>
   setTimeout(function(){
     document.getElementById('projects-listing').style.display='block';
   });
 </script>
+</div>
 <noscript>
 <h1><a id="Projects_0"></a>Projects</h1>
 <ul>
