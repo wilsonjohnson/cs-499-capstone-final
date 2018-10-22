@@ -1,6 +1,6 @@
 # Self Reflection
 
-Hello, my name is Wilson Johnson. I graduated from southern New Hampshire with a computer science degree on November 1st, 2018. 
+Hello, my name is Wilson Johnson. I graduated from Southern New Hampshire University with a BS in Computer Science on November 1st, 2018. 
 
 Throughout my studies I studied various aspects of programming and the skills associated with it, such as integrating databases, web applications, Linux kernels, and many other various in-depth coding standards and techniques. 
 
