@@ -77,7 +77,8 @@ Tools Used:
 - [MongoDB: Java Driver](https://mongodb.github.io/mongo-java-driver/)
 ###### For more details on specific dependencies, refer to the project's [pom.xml](https://github.com/wilsonjohnson/final-project-adv-programming-concepts/blob/master/pom.xml#L19)
 
-Here is a code review that I did outlining the changes I wanted to make to this project:
+Code Review ( pre-enhancement ):
+------
 
 <div  id="code-review" class="youtube" data-embed="cRgcOs_s6z4" onclick="document.getElementById('video-link').click();"> 
 	<img src="http://img.youtube.com/vi/cRgcOs_s6z4/sddefault.jpg" alt="Code Review"/>
