@@ -1,4 +1,4 @@
-##### [Self Reflection](./)
+##### [Self Reflection](../)
 
 [Design Diagram]: ./img/diagram.jpg
 

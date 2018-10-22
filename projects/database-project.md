@@ -1,4 +1,4 @@
-##### [Self Reflection](./)
+##### [Self Reflection](../)
 
 # Project: [MongoDB Java Integration ( JMongo )](https://github.com/wilsonjohnson/final-project-adv-programming-concepts)
 

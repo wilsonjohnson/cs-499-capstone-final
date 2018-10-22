@@ -21,5 +21,5 @@ To satisfy the Algorithms and Data structures portion, a similar mindset was tak
 The enhancement for databases was a simpler task, as I desired to improve upon the DAO API that I had created to have cleaner code for communicating with a MongoDB database. The purpose of this enhancement was to showcase my knowledge of MongoDB queries, and to create a simpler method for calling these aggregate queries in Java. This portion could also attribute to the Software Design and Engineering enhancements, as they greatly consider the method in which this would be utilized as an API. 
 
 # Projects
-- ## [Electron Sidescroller](./game-project.html)
-- ## [MongoDB Java Integration ( JMongo )](./database-project.html)
+- ## [Electron Sidescroller](./projects/game-project.html)
+- ## [MongoDB Java Integration ( JMongo )](./projects/database-project.html)
