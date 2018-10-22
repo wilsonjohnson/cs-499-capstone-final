@@ -79,7 +79,7 @@ public createLine( start: Coordinate | Vec2 | Point, end: Coordinate | Vec2 | Po
 }
 ```
 
-This is not the only ease of use integration created however, there are many more in the [PixiPlankCreator class](https://github.com/wilsonjohnson/cs-499-final-game/blob/master/src/physics.ts#L356)
+This is not the only ease of use integration created however, there are many more in the [PixiPlankCreator class](https://github.com/wilsonjohnson/cs-499-final-game/blob/d201b96237f77dfc089b0d4a8e8299b422157663/src/physics.ts#L356)
 
 ### Objectives
 - [x]  Physics Engine Integration
