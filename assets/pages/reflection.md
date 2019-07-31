@@ -1,5 +1,6 @@
 ---
 permalink: /index.html
+{% site.title = "WOW" %}
 ---
 
 # Self Reflection
