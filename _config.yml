@@ -1,9 +1,0 @@
-theme: jekyll-theme-midnight
-markdown: kramdown
-kramdown:
-   auto_ids: true
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
