@@ -1,0 +1,22 @@
+{
+  "name": "cs-499-capstone-final",
+  "version": "1.0.0",
+  "description": "#### [Github Pages](https://wilsonjohnson.github.io/cs-499-capstone-final/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsonjohnson/cs-499-capstone-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilsonjohnson/cs-499-capstone-final/issues"
+  },
+  "homepage": "https://github.com/wilsonjohnson/cs-499-capstone-final#readme",
+  "devDependencies": {
+    "@angular/cli": "^8.1.3"
+  }
+}
