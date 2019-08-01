@@ -50,7 +50,6 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 _site
-Gemfile
 Gemfile.lock
 
 # System Files

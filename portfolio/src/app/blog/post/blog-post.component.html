@@ -1,1 +1,5 @@
-<div markdown [src]="post"></div>
+<div>
+  <div (click)="click()">clicker</div>
+  <a routerLink="/" routerLinkActive="active">HOME</a>
+</div>
+<div (pointerenter)="changed($event)" [innerHTML]=" post$ | async | markdown "></div>

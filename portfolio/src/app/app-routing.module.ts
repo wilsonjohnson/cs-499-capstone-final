@@ -6,12 +6,12 @@ import { AppComponent } from './app.component';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./blog/blog.module').then( m => m.BlogModule )
+    loadChildren: () => import('./blog/blog.module').then( m => m.BlogModule ),
   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {initialNavigation: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
