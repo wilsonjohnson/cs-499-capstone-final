@@ -2,9 +2,9 @@
 permalink: /game-project.html
 ---
 
-##### [Self Reflection]({{ "/" | absolute_url }})
+##### [Self Reflection](/post/database-project)
 
-[Design Diagram]: {{ "/assets/img/diagram.jpg" | absolute_url }}
+[Design Diagram]: /assets/img/diagram.jpg
 
 # Project: [Electron Sidescroller](https://github.com/wilsonjohnson/cs-499-final-game)
 
